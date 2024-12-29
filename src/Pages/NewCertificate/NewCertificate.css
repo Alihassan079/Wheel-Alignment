@@ -1,0 +1,88 @@
+/* Styles for the section and layout */
+.certificate-container {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the certificate box */
+  .certificate-box {
+    width: 750px;
+    height: 550px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url('../../Assets/Certificate-Design.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  /* Styles for the inner border and layout */
+  .certificate-inner {
+    border: 10px solid red;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Table styles */
+  .certificate-table {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  /* Heading styles */
+  .certificate-heading {
+    font-size: 28px;
+    font-weight: 900;
+    color: black;
+    margin: 0 0 10px 0;
+  }
+  
+  .certificate-tag {
+    display: inline-block;
+    padding: 10px 90px;
+    background-image: url('../../Assets/tag-image.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Course name style */
+  .certificate-course {
+    font-size: 20px;
+    color: black;
+    margin: 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    max-width: 85%;
+    margin: auto;
+  }
+  
+  /* Date, logo, and instructor styling */
+  .certificate-info {
+    padding-top: 30px;
+    width: 30%;
+  }
+  
+  .certificate-logo {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .certificate-bottom-text {
+    font-size: 12px;
+    color: black;
+    margin: 0;
+    border-top: 1px solid #000;
+    padding-top: 5px;
+  }

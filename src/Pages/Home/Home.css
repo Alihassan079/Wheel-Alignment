@@ -1,0 +1,56 @@
+.banner {background-image: url("../../Assets/banner-bg.png"); background-repeat: no-repeat; background-size: cover; position: relative; padding: 160px 0 70px; color: var(--white-color); margin-bottom: 80px;}
+  .banner .image-box{position: absolute; right: 0; top: 106px; left: 32%; bottom: -10%;}
+  .banner .btn-box{padding: 27px 0 55px 0;}
+  .banner .video-button-container{position: static; transform: translate(0 , 0);}
+  .banner.inner-pages h1{max-width: 900px; margin: auto;}
+  @media screen and (min-width: 1440px){
+    .banner .image-box{left: 40%;}
+    .banner {margin-bottom: 130px;}
+  }
+  @media screen and (max-width: 1320px){
+    .banner{padding: 130px 0 50px ;}
+  }
+  @media screen and (max-width: 1199px){
+    .banner h1{max-width: 500px;}
+    .banner .btn-box{padding: 10px 0 25px;}
+    .banner .image-box {left: 45%; bottom: 0;}
+  }
+  @media screen and (max-width: 991px){
+    .banner .video-button-container { position: absolute; transform: inherit; top: auto; bottom: 1.5rem; right: 1.5rem; left: auto;}
+    .banner {padding: 150px 0 30px; margin: 0;}
+    .banner.inner-pages{padding: 100px 0 30px;}
+    .banner .btn-box {padding: 25px 0 25px;}
+  }
+
+
+  /* video Section */
+  .video-section {position: relative; width: 100%; padding: 20px 0 150px;}
+  .top-tr-soudo::before{content: url('../../Assets/tyre-top.png'); display: block; position: absolute; right: 20px; top: -260px; zoom: 80%; z-index: 3;}
+  .top-tr-soudo::after{content: url('../../Assets/tyre-bottom.png'); display: block; position: absolute; left: 20px; bottom: -200px; zoom: 80%; z-index: 3;}
+  .video-section h2{margin-bottom: 55px;}
+  .video-button-container {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 145px; height: 145px; z-index: 99;}
+  .video-button {width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; border-radius: 50%; color: white; font-size: 12.54px;
+    text-align: center; line-height: 1.2; text-decoration: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; cursor: pointer;}
+  .rotating-image {position: absolute; width: 100%; height: 100%; top: 0; left: 0; display: flex;
+    justify-content: center; align-items: center; transform-origin: center; animation: rotate 10s linear infinite;}
+  .rotating-image img {position: absolute; width: 100%; height: 100%; transform-origin: center;}
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @media screen and (max-width: 1199px) {
+    .video-button-container{width: 100px; height: 100px;}  
+  }
+  @media screen and (max-width: 991px){
+    .video-section h2{margin-bottom: 30px;}
+    .top-tr-soudo::before,.top-tr-soudo::after{ zoom: 50%;}
+  } 
+  @media screen and (max-width: 767px){
+    .video-section{padding-bottom: 50px;}
+    .top-tr-soudo::before,.top-tr-soudo::after{ zoom: 20%;}
+  
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  

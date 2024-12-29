@@ -1,0 +1,28 @@
+.review-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rating-stars {
+    color: #FFD700;
+    font-size: 24px;
+}
+
+.review-source img {
+    height: 20px;
+    width: 20px;
+}
+
+.review-card {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.pagination {
+    justify-content: center;
+}
+.page-link{color: #000}
+.page-item:first-child .page-link,.page-item:last-child .page-link{ background-color: var(--hover-color); color: var(--bg-light-color);}
+.page-link:hover{color: var(--bg-light-color); background-color: var(--btn-dark-color) !important;}

@@ -1,0 +1,9 @@
+.cart-section .input-group input{width: 30px;}
+.cart-section .btn{font-size: 20px;}
+button{background-color: transparent; border: 0;}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+}

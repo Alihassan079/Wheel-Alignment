@@ -1,0 +1,59 @@
+.certificate-border {
+    border: 15px solid black;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.inner-border {
+    border: 5px solid red;
+    padding: 40px;
+    background-color: #fff;
+    position: relative;
+}
+
+.wavy-bg {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><path d="M0 0h5v5H0z" fill="none" stroke="%23eee" /></svg>');
+    background-size: 25px 25px;
+}
+
+.title-text {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle-text {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.course-text {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.date-instructor {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.signature-line {
+    display: inline-block;
+    width: 200px;
+    border-top: 1px solid #000;
+    margin-top: 15px;
+}
+
+.logo-section img {
+    width: 100px;
+}
+
+.logo-section {
+    position: absolute;
+    bottom: 30px;
+    right: 50%;
+    transform: translateX(50%);
+}

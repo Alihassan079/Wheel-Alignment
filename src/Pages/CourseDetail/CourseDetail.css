@@ -1,0 +1,19 @@
+/* course sec */
+.courses-sec{padding: 140px 0 100px;}
+.backg-light{background-color: var(--bg-light-color);}
+.courses-sec .content-box p{margin: 0; font-size: 20px; font-weight: 600; line-height: 1.5;}
+.courses-sec .content-box{padding: 42px 0;}
+.courses-sec .para{padding: 25px 0;}
+.hb-cards .overlay{position: absolute; top: 100%; bottom: 0; left: 0; right: 0; opacity: 0; background-color: #1313136c; transition: 0.25s ease;}
+.hb-cards img{width: 100%;}
+.hb-cards .img-box:hover .overlay{ top: 0; opacity: 1;}
+.img-box:hover img{transform: scale(1.1);}
+@media screen and (max-width: 1199px){
+  .courses-sec{padding: 100px 0 60px;}
+}
+@media screen and (max-width: 991px){
+  .courses-sec{padding: 60px 0 40px;}
+  .courses-sec .para{font-size: 18px; padding: 10px 0;}
+  .courses-sec .content-box{padding: 20px 0;}
+  .courses-sec .content-box p{font-size: 16px;}
+}

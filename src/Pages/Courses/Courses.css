@@ -1,0 +1,18 @@
+.banner {background-image: url("../../Assets/banner-bg.png"); background-repeat: no-repeat; background-size: cover; position: relative; padding: 160px 0 70px; color: var(--white-color); margin-bottom: 80px;}
+.banner .image-box{position: absolute; right: 0; top: 106px; left: 32%; bottom: -10%;}
+
+
+/* inside page */
+
+.inside-page{color: #fff; margin-bottom: 150px; background-image: url('../../Assets/inside-bg.png'); padding: 50px 0; background-color: #000000; background-repeat: no-repeat; background-position: left; background-size: 50% 100%;}
+.inside-page h2{max-width: 760px; margin-left: auto;}
+@media screen and (min-width: 1199px){
+  .inside-page h2{font-size: 35px;}
+}
+@media screen and (max-width: 1199px){
+  .inside-page{margin-bottom: 100px;}
+}
+@media screen and (max-width: 767px){
+  .inside-page{background-size: cover;}
+  .inside-page{margin-bottom: 50px;}
+}

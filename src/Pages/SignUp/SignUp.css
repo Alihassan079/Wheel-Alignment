@@ -1,0 +1,75 @@
+.auth-wrapper {
+    height: 100%;
+    position: relative;
+}
+.auth-wrapper .auth-boxs .logo {
+    text-align: center;
+}
+.auth-wrapper img {
+    height: 100% ;
+    object-fit: cover ;
+}
+ 
+ .auth-boxs {
+    max-width: 508px;
+    padding: 0 15%;
+    width: 100%;
+    margin: 10% 0;
+}
+.auth-boxs .logo img {
+    max-width: 30%;
+    
+}
+img {
+    border-style: none;
+}
+
+/* form */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.auth-boxs input {
+    background-color: transparent;
+    font-size: 16px;
+    padding: 8px;
+    color: #000;
+    border: 0;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+.auth-boxs label {
+    position: absolute;
+    top: 50%;
+    font-size: 16px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+  top: 0px;
+ 
+}

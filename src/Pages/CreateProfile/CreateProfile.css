@@ -1,0 +1,50 @@
+.auth-box {
+    position: relative;
+}
+
+.auth-box label {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    transition: all 0.25s ease;
+}
+
+.auth-box input,
+.auth-box textarea {
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px;
+    color: #000 !important;
+    border: 0;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+.auth-box input:focus,
+.auth-box input:focus-visible,
+.auth-box textarea:focus-visible {
+    border-bottom: 1px solid #000;
+    outline: none;
+    box-shadow: inherit;
+}
+
+.auth-box input:focus~label,
+.auth-box textarea:focus~label,
+.auth-box input.has-value~label,
+.auth-box textarea.has-value~label {
+    top: -5px;
+    font-size: 12px;
+}
+
+.auth-box .custom-checkbox a {
+    color: #000;
+    padding: 5px 10px;
+    background-color: #f1f2f7;
+    font-size: 12px;
+}
+
+.profile-header img {
+    max-width: 100%;
+    display: block;
+    transition: all 0.25s ease;
+}

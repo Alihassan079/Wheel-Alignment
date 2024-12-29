@@ -1,0 +1,83 @@
+
+  /* admin-dashbord */
+  .dashboard{background-color: #f8f9ff;}
+        .admin-side-bar{flex: 0 0 220px; padding-top: 20px; box-shadow: 1px 1px 27px #f4f4f4; height: 100vh;}
+        .admin-side-bar .nav{padding-top: 20px;}
+        .admin-side-bar .nav .nav-link{padding: 10px 10px 10px 50px; color: #8695aa; font-size: 16px; text-align: left; border-right: 5px solid transparent; border-radius: 0; display: flex; align-items: center; gap: 10px;}
+        .admin-side-bar .nav .nav-link.active{color: #272727; background-color: #e2e5ee; border-right: 5px solid #272727;}
+        .admin-logo{padding: 0 50px;}
+        .search-form{border-radius: 30px; padding: 5px 20px; background-color: #e2e5ee;}
+        .dashboard-header{padding: 20px 0; font-size: 16px;}
+        .dashboard-header .form-control,.dashboard-header .form-control::placeholder{color: #8695aa; font-size: 16px;}
+        .dashboard-header .admin-search-bar{flex: 0 0 50%;}
+        .dashboard-header .nav-bar .nav-lists{gap: 25px; padding-right: 25px;}
+        .dashboard-header .nav-bar .nav-lists .admin-lists.active{color: var(--hover-color);}
+        .dashboard-header .admin-info .img-box{max-width: 55px;}
+        .dashboard-header .admin-info .dropdown-toggle::after{display: none;}
+        .dashboard-header .admin-info ul li:nth-child(even){color: #8695aa;}
+        .admin-ruce-box .list-box{padding: 20px; margin-top: 15px; box-shadow: 0 1px 30px #27272714; border-radius: 0 0 10px 10px; border-top: 5px solid #000;}
+        .admin-ruce-box .col-md-6:nth-child(even) .list-box{border-color: var(--hover-color);}
+        .admin-ruce-box .list-box .lists.list-heading{font-size: 20px; padding-bottom: 10px; color: #000; font-weight: 700;}
+        .admin-ruce-box .list-box .lists{font-size: 20px; color: #6c6c6c; font-weight: 500;}
+        .icon-box{height: 60px; width: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 25px; background-color: #e2e5ee;}
+        .admin-ruce-box .col-xl-3:nth-child(even) .icon-box{background-color: #f5e1e8; color: var(--hover-color);}
+
+        .chart-container { width: 100%; height: 100%; padding: 30px 20px;  border-radius: 15px; box-shadow: 0 1px 30px #27272714;}
+        .chart-header { display: flex; justify-content: space-between; align-items: center;}
+        .chart-header h5 {margin: 0; font-size: 20px;}
+        .chart-header .info {text-align: right;}
+        .chart-header .info p {margin: 0; font-size: 14px; color: gray;}
+        .chart-header .info .percentage {font-size: 24px; font-weight: bold; color: black;}
+
+         #spline-chart .highcharts-background,  #spline-chart .highcharts-plot-background {fill: transparent;}
+         #spline-chart .highcharts-grid-line {stroke: #e6e6e6; stroke-width: 1px;}
+         #spline-chart .highcharts-xaxis-labels text {fill: #999;}
+         #spline-chart .highcharts-title {fill: #333; font-weight: bold;}
+         #spline-chart .highcharts-series path {stroke: #333; stroke-width: 3px;}
+         .progress-container {position: relative; width: 150px; height: 150px; margin: 0 auto; margin-top: 20px;}
+         .progress-circle {position: relative; width: 100%; height: 100%; border-radius: 50%; background: conic-gradient( var(--hover-color) 0%, var(--hover-color) calc(var(--percentage) - 0.5%), transparent calc(var(--percentage) - 0.5%), transparent var(--percentage), #FFB3B3 calc(var(--percentage) - 0.5%), transparent calc(100% - 0.3%) );
+           display: flex; justify-content: center;  align-items: center;}
+         .progress-text {position: absolute; font-size: 18px; color: #333; background-color: #f8f9ff; border-radius: 50%;
+           left: 10%; right: 10%; bottom: 10%; top: 10%; display: flex; justify-content: center; align-items: center;}
+        
+           .course-tap{padding: 20px 10px; border-radius: 5px; width: calc(50% - 0.25rem);}
+           .course-tap .icon-box{height: 30px; flex: 0 0 30px; font-size: 16px;}
+           .course-tap p{font-size: 13px; line-height: 1.5; font-weight: 600;}
+           .hb-bg-light{background-color: #ccd2dd;}
+           .hb-bg-light .icon-box{background-color: #b2bbc9; color: #272727;}
+           .hb-bg-green{background-color: #cfe7e9;}
+           .hb-bg-green .icon-box{background-color: #b6dcdc; color: #2a9d8f;}
+           .hb-bg-orange{background-color: #f9e8cf;}
+           .hb-bg-orange .icon-box{background-color: #f9deb3; color: #fca311;}
+           .hb-bg-red{background-color: #f5dddc;}
+           .hb-bg-red .icon-box{background-color: #f3cdc7; color: #e76f51;}
+
+           @media screen and (min-width: 1440px) {
+            .admin-side-bar{padding-top: 30px; flex: 0 0  331px;}
+            .admin-side-bar .nav .nav-link{padding: 25px 10px 25px 50px;}
+            .search-form{border-radius: 30px; padding: 5px 10px;}
+            .dashboard-header{padding: 30px 0; font-size: 18px;}
+            .dashboard-header .form-control,.dashboard-header .form-control::placeholder{font-size: 20px;}
+            .dashboard-header .nav-bar .nav-lists{gap: 45px; padding-right: 45px;}
+            .admin-ruce-box .list-box{padding: 35px; border-top: 8px solid #000; margin-top: 25px;}
+            .admin-ruce-box .list-box .list-heading{font-size: 30px; padding-bottom: 30px;}
+            .admin-ruce-box .list-box .icon-box{height: 100px; width: 100px; font-size: 50px;}
+            .chart-header h5 {font-size: 24px;}
+            .chart-container {padding: 30px;}
+            .course-tap p{font-size: 16px;}
+        }
+        @media screen and (max-width: 1199px) and (min-width: 991px){
+            .admin-side-bar{flex: 0 0 100px;}
+            .admin-side-bar .nav .nav-link{padding: 10px; justify-content: center;}
+            .admin-logo{padding: 0 10px;}
+            .admin-side-bar span.nav-text {display: none;}
+        }
+        @media screen and (max-width: 991px){
+            .admin-side-bar{display: none; position: fixed; top: 0; bottom: 0; height: 100vh; padding-top: 0; background-color: #fff; z-index: 9999;}
+            .sb-sidenav-toggled .admin-side-bar{display: block;}
+            .admin-logo img{max-width: 50%; margin-left: 50px;}
+        }
+        @media screen and (max-width: 767px){
+            .course-tap{width: 100%;}
+            .row.pt-4{gap: 15px;}
+        }

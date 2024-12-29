@@ -1,0 +1,103 @@
+.banner.inner-pages h1 {
+    max-width: 800px;
+    margin: auto;
+}
+ 
+ 
+ .hb-pdf-container {
+    height: 650px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+.hb-pdf-container .pdf-controls {
+    text-align: center;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    padding: 0 20px;
+    background-color: #404040;
+    border-radius: 5px;
+}
+
+.hb-pdf-container .page-info {
+    text-align: center;
+    font-size: 16px;
+}
+
+.hb-pdf-container .plus-min-box {
+    padding-left: 10px;
+    border-left: 1px solid #a5a5a5;
+    margin-left: 20px;
+    padding: 10px 0 10px 10px;
+}
+
+.hb-pdf-container button {
+    background-color: transparent;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.hb-pdf-container input {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    background-color: transparent;
+    border: 0;
+    box-shadow: inherit;
+    background-color: #000;
+    color: #fff;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* form check */
+.unit-box p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #404040;
+}
+
+.unit-box .form-check {
+    padding: 30px 0;
+    border-top: 1px solid #000;
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: .125rem;
+}
+
+.unit-box .form-check-input {
+    margin: 0;
+    float: inherit;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: .25em;
+}
+input[type="checkbox"] {
+    font-size: 27px;
+    display: inline-block;
+    border: 1px solid #6e6e6e !important;
+}
+.unit-box .form-check-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ 
